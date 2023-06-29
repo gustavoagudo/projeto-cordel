@@ -6,85 +6,74 @@
 
 body{
     margin: 0;
-    background-color: gray;
+    background-color: rgb(95, 93, 93);
 }
 
 header{
     background-color: black;
-    color: white;
-    padding: 40px;
+    padding: 60px;
+    text-align: center;
 }
 header h1{
-    font-family: 'Passion one', cursive;
+    font-family: 'Passion One', cursive;
+    color: white;
     font-size: 3em;
-    text-align: center;
-    margin-bottom: 0px;
+    margin: 0;
+}
+header p{
+    color: white;
+    font-weight: lighter;
+    margin: 0;
 }
 header a{
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
 }
 header a:hover{
     text-decoration: underline;
 }
-header p{
-    text-align: center;
-    font-weight: 100;
-}
-article > p{
-    height: 50vh;
-    font-family: 'Sriracha', cursive;
-    font-size: 1.2em;
 
-}
 main{
-    max-width: 100vh;
+    max-width: 900px;
     margin: auto;
     background-color: white;
+}
+
+article div{
+    display: block;
     padding: 20px;
-}
-#Fgirassol{
-    height: 50vh;
-    max-width: 100vh;
-    background-image: url(../imagens/background001.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-#Fcartas{
-    height: 50vh;
-    max-width: 100vh;
-    background-image: url(../imagens/background002.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-.conteudo{
-    background-color: rgba(0, 0, 0, 0.267);
-    color: white;
-    max-width: 50%;
-    position: absolute;
-    top: 15%;
-    font-family: 'Sriracha', cursive;
-    padding: 10px;
-    font-size: 1.2em;
+       
 }
 .paragrafos{
-    max-width: 50%;
+    font-family: Sriracha, cursive;
 }
-
-
+.conteudo{
+    font-family: Sriracha, cursive;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.219);
+    max-width: 35%;
+}
+#Fgirassol{
+    background-image: url(../imagens/background001.jpg);
+    max-height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#Fcartas{
+   background-image: url(../imagens/background002.jpg);
+   max-height: 50vh;
+}
 
 footer{
     background-color: black;
-    padding: 15px;
+    padding: 20px;
+}
+footer p{
     color: white;
+    font-size: 1.2em;
     text-align: center;
-    font-size: 800;
 }
 footer a{
     text-decoration: none;
