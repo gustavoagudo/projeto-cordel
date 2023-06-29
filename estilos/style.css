@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body{
+    margin: 0;
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+header h1{
+    font-family: 'Passion one', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header p{
+    text-align: center;
+    font-weight: 100;
+}
+article > p{
+    height: 50vh;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.2em;
+
+}
+main{
+    max-width: 100vh;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+#Fgirassol{
+    height: 50vh;
+    max-width: 100vh;
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+#Fcartas{
+    height: 50vh;
+    max-width: 100vh;
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.conteudo{
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+    max-width: 50%;
+    position: absolute;
+    top: 15%;
+    font-family: 'Sriracha', cursive;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.paragrafos{
+    max-width: 50%;
+}
+
+
+
+footer{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 800;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
