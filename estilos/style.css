@@ -64,7 +64,11 @@ article div{
 #Fcartas{
    background-image: url(../imagens/background002.jpg);
    max-height: 50vh;
-}
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   }
 
 footer{
     background-color: black;
